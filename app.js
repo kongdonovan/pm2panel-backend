@@ -33,10 +33,22 @@ app.use(multer().none());
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
+// cookie parser setup
+const cookie = require('cookie-parser')
+app.use(cookie())
+
 // pm2 setup
 const pm2 = require('pm2')
 
-// checks user input against db to see if a valid user is trying to login
+// require an auth key and a login to use any endpoints
+const bcrypt = require('bcrypt')
+const user = "kongdonovan"
+const pass = "The35trollers"
+
+// POST -- get a list of active processes
+app.post("/list", async (req, res) => {
+  
+})
 
 
 
