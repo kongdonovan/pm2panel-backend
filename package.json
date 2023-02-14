@@ -1,0 +1,19 @@
+{
+  "name": "pm2panel-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongdonovan/pm2panel-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kongdonovan/pm2panel-backend/issues"
+  },
+  "homepage": "https://github.com/kongdonovan/pm2panel-backend#readme"
+}
